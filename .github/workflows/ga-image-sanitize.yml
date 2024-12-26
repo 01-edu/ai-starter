@@ -16,7 +16,7 @@ jobs:
     name: 🗑️ Delete PR${{github.event.pull_request.number}} Image
     runs-on: ubuntu-latest
     steps:
-      - name: 🗑️ Delete AI.GO! Piscine JS image PR${{github.event.pull_request.number}}
+      - name: 🗑️ Delete AI.STARTER! Piscine JS image PR${{github.event.pull_request.number}}
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: 01-edu
@@ -26,7 +26,7 @@ jobs:
           tag: PR${{github.event.pull_request.number}}
         continue-on-error: true
 
-      - name: 🗑️ Delete AI.GO! Piscine DOM image PR${{github.event.pull_request.number}}
+      - name: 🗑️ Delete AI.STARTER! Piscine DOM image PR${{github.event.pull_request.number}}
         uses: bots-house/ghcr-delete-image-action@v1.1.0
         with:
           owner: 01-edu
