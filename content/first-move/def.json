@@ -7,7 +7,7 @@
     "validations": [
       {
         "type": "tester",
-        "testImage": "ghcr.io/01-edu/ai-go-dom",
+        "testImage": "ghcr.io/01-edu/ai-starter-dom",
         "cooldown": 0
       }
     ]

@@ -1,1 +1,1 @@
-# ai-go
+# ai-starter
