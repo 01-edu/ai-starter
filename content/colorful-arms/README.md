@@ -1,28 +1,28 @@
-## Colorful arms
+## Colorful Arms
 
-> JSPowered Mode
+> JS-Powered Mode
 
 ### Context
 
-Your robot is already impressive, but you can make it even more eye-catching! Or at least, make it show off its colorful arms to the world!
+Your robot is already impressive, but you can make it even more eye-catching! At the very least, you can make it show off its colorful arms to the world!
 
-> Follow the instructions, ask your peers if you are stuck and stay motivated because you are close to the goal!
-> Follow every hint you have in the subject!
-> Continue on the code from last exercise, and change the file names!
+> Follow the instructions, ask your peers if you get stuck, and stay motivated because you're close to the goal!
+> Pay attention to every hint provided in the subject!
+> Continue working on the code from the last exercise, and update the file names accordingly!
 
 ### Instructions
 
-After finishing these tasks, you will be able make your robot's arms change to beautiful colors!
+By completing these tasks, you will enable your robot's arms to change to beautiful colors!
 
 #### Task 1:
 
-Let's put a third button in the top right corner of the page with an id `arm-color`, that will change the arms color. Add it in the HTML structure:
+Add a third button to the top-right corner of the page with the ID `arm-color`. This button will change the color of the robot's arms. Add the following to the HTML structure:
 
 ```html
 <button id="arm-color">Change robot's arm colors</button>
 ```
 
-Add the button style in the CSS file:
+Style the button in the CSS file:
 
 ```css
 #arm-color {
@@ -34,7 +34,7 @@ Add the button style in the CSS file:
 }
 ```
 
-Also replace the `button` element styles with this block:
+Replace the existing `button` element styles with this block:
 
 ```css
 button {
@@ -47,21 +47,21 @@ button {
 }
 ```
 
-Do you see how prettier the buttons turned to be?
+Notice how much prettier the buttons look now!
 
 #### Task 2:
 
-In the JS file, like in the previous exercise, get the following elements:
+In the JavaScript file, as in the previous exercise, select the following elements:
 
 - The button with the ID `arm-color`.
 - The left and right arm elements with the IDs `arm-left` and `arm-right`.
 
 #### Task 3:
 
-In the code example below, we show you the variable `randomColor` which stores a random color each time we use it.
+In the code example below, we demonstrate the variable `randomColor`, which generates a random color each time it is used.
 
-- Create a function that applies **the same random color** to both arms by changing their `backgroundColor` every time the function is called.
-- Then add an `event listener` on `click event` for the button with ID `arm-color`.
+- Create a function that applies **the same random color** to both arms by changing their `backgroundColor` whenever the function is called.
+- Add an `event listener` for the `click` event on the button with the ID `arm-color`.
 
 ### Code Example:
 
@@ -86,9 +86,9 @@ const handleChangeArmColor = (event) => {
 armColorButton.addEventListener("click", handleChangeArmColor);
 ```
 
-### Expected result
+### Expected Result
 
-You can see an example of the expected result [here](https://youtu.be/viQymmWw6wo)
+You can see an example of the expected result [here](https://youtu.be/viQymmWw6wo).
 
 **`Prompt Example:`**
 

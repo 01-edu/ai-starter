@@ -4,7 +4,7 @@
 
 ### Context
 
-Your robot will need to start executing custom tasks, and to do that, you'll need to program its `functions`. Functions are like commands that tell robot exactly what to do.
+Your robot will need to start executing custom tasks, and to do that, you'll need to program its `functions`. Functions are like commands that tell the robot exactly what to do.
 
 You can create your own functions to give your robot unique abilities and make it more efficient!
 
@@ -13,23 +13,23 @@ You can create your own functions to give your robot unique abilities and make i
 **Reflective Practice Technique:**
 This type of prompt encourages you to reflect on the concepts you’ve just learned, reinforcing your understanding by applying the concepts in different contexts or scenarios.
 
-Find the examples across the subject ;)
+Find examples across the subject ;)
 
 ### Concepts
 
-Remember this example of function call ?
+Remember this example of a function call?
 
 ```js
 //       ↙ identifier, like variables
-console.log("Hello There !"); // <- function call happening here
+console.log("Hello There!"); // <- function call happening here
 //          ↖ open paren + argument + close paren
 ```
 
 There, we saw how to call and use "built-in" functions.
 
-Here, now, we are going to learn how to declare our owns. This will gives us even more freedom to build our own logic.
+Now, we are going to learn how to declare our own. This will give us even more freedom to build our own logic.
 
-### Declaring a function
+### Declaring a Function
 
 Here, we’ll learn how to declare a function in a `variable`. This gives your robot more freedom to perform custom tasks.
 
@@ -39,7 +39,7 @@ We'll use the `ArrowFunctionExpression` syntax to declare a function:
 //    ↙ normal variable     ↙ beginning of the scope of the function
 let myFirstFunction = () => {
   //                    ↖ parens () for arguments and the arrow => for syntax
-}; // <-end of the scope of the function
+}; // <- end of the scope of the function
 ```
 
 ### Calling a Function
@@ -52,7 +52,7 @@ myFirstFunction(); // This will call the function, but nothing happens yet
 
 ### Adding Instructions
 
-Very much like an if statement a function has a scope. The scope in between the curly braces `{}` is where the action happens. Let's add something to the scope of our function:
+Much like an if statement, a function has a scope. The scope, enclosed by curly braces `{}`, is where the action happens. Let's add something to the scope of our function:
 
 ```js
 let myFirstFunction = () => {
@@ -60,13 +60,13 @@ let myFirstFunction = () => {
 };
 ```
 
-Now, when you call `myFirstFunction()`, Robot will log a message in the console:
+Now, when you call `myFirstFunction()`, the robot will log a message in the console:
 
 ```js
 myFirstFunction(); // Output: "Robot is now active!"
 ```
 
-> We actually declared, then called the function and gave it this single instruction, `console.log('Robot is now active!')`.
+> We declared the function, called it, and gave it a single instruction: `console.log('Robot is now active!')`.
 
 #### **`Prompt Example`**:
 
@@ -80,8 +80,8 @@ myFirstFunction(); // Output: "Robot is now active!"
 
 #### Task 1:
 
-You are a robot made by a scientist called Rick and you want to know your purpose.
+You are a robot created by a scientist named Rick, and you want to know your purpose.
 
-- Declare a function named `ask` that `log` 'What is my purpose ?' in the console
-- Declare a function named `reply` that `log` 'You pass butter.' in the console
-  Then call the `ask` and the `reply` each once, in that order.
+- Declare a function named `ask` that logs 'What is my purpose?' to the console.
+- Declare a function named `reply` that logs 'You pass butter.' to the console.
+  Then call `ask` and `reply` once each, in that order.

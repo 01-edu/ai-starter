@@ -12,33 +12,33 @@ As a team, your task is to combine your individual creations into a cohesive dis
 
 This gallery won't be functional yet; it will be a fun and visually appealing experience that highlights the creativity and collaboration behind your robots.
 
-> You'll be working on this mission as a team, so effective communication and mutual support are key to bring your robots together.
+> You'll be working on this mission as a team, so effective communication and mutual support are key to bringing your robots together.
 
-> Divide tasks equally, it will make the results better!
+> Divide tasks equally; it will make the results better!
 
-> Remember what you learned when asking AI for precise concepts' explanations. Make use of them to do the actual fun work!
+> Remember what you learned when asking AI for precise concept explanations. Use those skills to do the actual fun work!
 
-### Challenge mode
+### Challenge Mode
 
-> AI Synergy mode: In this mode, you are using the research, time management, AI prompts, and collaboration skills to dive into a mission as a team. Remember that communication is the ultimate key!
+> AI Synergy Mode: In this mode, you will use research, time management, AI prompts, and collaboration skills to dive into this mission as a team. Remember that communication is the ultimate key!
 
-Go ahead, and let the world see the amazing robots you've created together!
+Go ahead and let the world see the amazing robots you've created together!
 
 ## Setups:
 
 **1- Code Editor:**
 
-First , remember that you will not be using the platform's code editor. Instead, you can use this online [tool](https://jsfiddle.net/) to create and modify your code.
+First, remember that you will not be using the platform's code editor. Instead, you can use this online [tool](https://jsfiddle.net/) to create and modify your code.
 
 > Feel free to play with the settings and familiarize yourself with the collaborative environment!
 
 > PS: Click on Run to see the result of your code!
 
-**2- How to submit your code:**
+**2- How to Submit Your Code:**
 
 Your project must be handed in by the group captain before the time runs out. This is done by publishing the code on the platform.
 
-To do so, go to **gitea** by clicking on the logo at the top right of your platform dashboard. (on the captain's account)  
+To do so, go to **Gitea** by clicking on the logo at the top right of your platform dashboard (on the captain's account).  
 [![Capture-d-e-cran-2024-08-29-a-19-51-15.png](https://i.postimg.cc/zBRM6BMv/Capture-d-e-cran-2024-08-29-a-19-51-15.png)](https://postimg.cc/N9BprgQv)
 
 Sign in if you are not already logged in.
@@ -48,10 +48,10 @@ You must create a repository to submit your work.
 
 Name it **robots-harmony** and check the box that says **Initialize Repository (Adds .gitignore, License and README).**
 
-You can now create all your project files to this repository, using the button New file and finalize this step by clicking Commit changes  
+You can now create all your project files in this repository using the "New file" button and finalize this step by clicking "Commit changes."  
 [![Capture-d-e-cran-2024-08-29-a-20-00-08.png](https://i.postimg.cc/G2kqcB15/Capture-d-e-cran-2024-08-29-a-20-00-08.png)](https://postimg.cc/vgZWhZTr)
 
-**3- Expected files:**
+**3- Expected Files:**
 
 You need to submit the following files:
 
@@ -61,7 +61,7 @@ You need to submit the following files:
 
 ## Instructions
 
-These following tasks are mandatory for this raid to be passed successfully. The bonus part is optional but highly encouraged for more fun!
+The following tasks are mandatory for this raid to be passed successfully. The bonus part is optional but highly encouraged for more fun!
 
 ### Task 1: Set Up the Gallery Structure
 
@@ -69,17 +69,17 @@ These following tasks are mandatory for this raid to be passed successfully. The
 
 Inside your HTML file, set up the basic structure of the HTML document with a `<head>` and `<body>` inside an `<html>` tag.
 
-#### 2- Give a gallery title:
+#### 2- Give the Gallery a Title:
 
-- Inside your `<body>` , create an `<h1>` tag inside a `<div>` with the `id` **title**. Then put the name of your gallery inside the `<h1>` section !
+- Inside your `<body>`, create an `<h1>` tag inside a `<div>` with the `id` **title**. Then put the name of your gallery inside the `<h1>` section!
 
-```HTML
-    <div id="title">
-        <h1>your favorite gallery name</h1>
-    </div>
+```html
+<div id="title">
+  <h1>Your Favorite Gallery Name</h1>
+</div>
 ```
 
-#### 3- Put your robots inside the gallery:
+#### 3- Add Your Robots to the Gallery:
 
 - Under the `title` div, create a div element with the `id` **gallery**.
 
@@ -91,17 +91,17 @@ Inside your HTML file, set up the basic structure of the HTML document with a `<
 
 - Each team member should copy their robot's HTML structure (the one you provided in the `first-move.html` exercise between the `<section>` `</section>` code) and paste it inside this `gallery` div.
 
-- Ensure each robot is placed inside its own div with the class `name-robot`, do not forget to change the `name` to be your name in the team, for example:
+- Ensure each robot is placed inside its own div with the class `name-robot`. Do not forget to change the `name` to your name in the team. For example:
 
 ```html
 <div class="john-robot">
-  <!-- Paste your robot's HTML structure here (face, upper-body, lowe-body)-->
+  <!-- Paste your robot's HTML structure here (face, upper-body, lower-body) -->
 </div>
 <div class="sarah-robot">
-  <!-- Paste your robot's HTML structure here (face, upper-body, lowe-body) -->
+  <!-- Paste your robot's HTML structure here (face, upper-body, lower-body) -->
 </div>
 <div class="bob-robot">
-  <!-- Paste your robot's HTML structure here (face, upper-body, lowe-body) -->
+  <!-- Paste your robot's HTML structure here (face, upper-body, lower-body) -->
 </div>
 ```
 
@@ -110,15 +110,15 @@ Inside your HTML file, set up the basic structure of the HTML document with a `<
 Under each robot's `</section>` (that you copied from your robot's code in `first-move.html`), add an `<h3>` element for the robot's name and a `<p>` element for a short description of its power.
 
 ```html
-<h3>Your robot's name</h3>
-<p>Your robot's description</p>
+<h3>Your Robot's Name</h3>
+<p>Your Robot's Description</p>
 ```
 
 ### Task 2: Style the Gallery
 
 #### 1- Update the CSS File:
 
-- In your HTML file, link your CSS file by pasting the following code in between the `<head></head>` tags:
+- In your HTML file, link your CSS file by pasting the following code between the `<head></head>` tags:
 
 ```html
 <link rel="stylesheet" href="robots-harmony.css" />
@@ -227,7 +227,7 @@ h3 {
 }
 ```
 
-- Add the following style block to all your `name-robot` classes. To do so, we follow the rule:
+- Add the following style block to all your `name-robot` classes. To do so, follow this rule:
 
 ```css
 .class-one,
@@ -237,21 +237,21 @@ h3 {
 }
 ```
 
-- Name it with the `name-robot` of each teammember, and add inside the block the following styles:
+- Name it with the `name-robot` of each team member, and add the following styles inside the block:
 
 ```css
 {
-    border: 2px solid #333;
-    padding: 20px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 400px;
+  border: 2px solid #333;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 400px;
 }
 ```
 
@@ -270,9 +270,9 @@ h3 {
 
 > Experiment by changing the colors of the box-shadow and the scale value! Be creative.
 
-- In your `#gallery` CSS rule, add some animated gradient color to the background! You can achieve it by combining CSS properties: `background`, `background-size`, `animation` and `box-shadow`.
+- In your `#gallery` CSS rule, add some animated gradient color to the background! You can achieve it by combining CSS properties: `background`, `background-size`, `animation`, and `box-shadow`.
 
-> Hint : Do not forget to replace the background property with the new value below!
+> Hint: Replace the background property with the new value below!
 
 _For Example:_
 
@@ -288,9 +288,9 @@ animation: gradientBackground 2s ease infinite; /* Animates the background to cr
 box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Adds a shadow around the element. Adjust the offsets, blur radius, and opacity as needed */
 ```
 
-> You didn't see any change? Well we didn't specify what to do with all those colors, angles and timing yet!
+> You didn't see any change? Well, we didn't specify what to do with all those colors, angles, and timing yet!
 
-- Let's make it more exciting by actually making the colors move! We can do that with `keyframes`! Under the `#gallery` css rule, put the `keyframes` block and see the magic !
+- Let's make it more exciting by actually making the colors move! We can do that with `keyframes`! Under the `#gallery` CSS rule, put the `keyframes` block and see the magic!
 
 _For Example:_
 
@@ -314,7 +314,7 @@ _For Example:_
 
 - "How do I create a smooth gradient background with multiple colors in CSS?"
 
-- "Explain to me as a beginner these CSS properties: `background`, `background-size`, `animation` and `box-shadow`."
+- "Explain to me as a beginner these CSS properties: `background`, `background-size`, `animation`, and `box-shadow`."
 
 ### Task 3: Add Interactivity with JavaScript:
 
@@ -322,21 +322,21 @@ _For Example:_
 
 Inside your JavaScript file, write functions that change the colors of different parts of your robots when specific keys are pressed.
 
-Follow the following steps:
+Follow these steps:
 
 - **Function to Change Arm Colors**:
 
   - Create a function named `changeArmColor`.
   - This function should accept a parameter `robotClass` to identify which robot to modify.
-  - Inside the function, generate a random color using JavaScript, to apply to both `left` and `right` arms.
+  - Inside the function, generate a random color using JavaScript to apply to both `left` and `right` arms.
 
   ```js
   const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
   ```
 
   - Use `document.querySelector` to select the `left` and `right` arm elements of the robot.
-  - Apply the random color to both arm' elements using `style.backgroundColor`.
-  - Below is an example, do the same for the right arm:
+  - Apply the random color to both arm elements using `style.backgroundColor`.
+  - Below is an example; do the same for the right arm:
 
   ```js
   const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
@@ -344,10 +344,10 @@ Follow the following steps:
   document.querySelector(`.${robotClass} #arm-left`).style.backgroundColor =
     randomColor;
 
-  //do the same to the right arm
+  // Do the same for the right arm
   ```
 
-- **Function to Change Legs Colors**:
+- **Function to Change Leg Colors**:
 
   - Create a function named `changeLegColor`.
   - Follow the same steps as the `changeArmColor` function but have it target the `legs`.
@@ -387,7 +387,7 @@ document.addEventListener("keydown", function (event) {
     changeFaceColor("john-robot");
   }
 
-  // Add similar conditions for other robots choosing what keys will change the colors!
+  // Add similar conditions for other robots, choosing what keys will change the colors!
 
   //...Here
 });
@@ -397,26 +397,26 @@ document.addEventListener("keydown", function (event) {
 
 **`Prompt Example:`**
 
-- "What is `event.key` in JavaScript and how can it be used to detect keyboard inputs?"
+- "What is `event.key` in JavaScript, and how can it be used to detect keyboard inputs?"
 - "How can I use `document.querySelector` to select multiple elements in JavaScript?"
 
 #### 4- Task 5: Final Touches:
 
 - Ensure that all robots are displayed correctly in the gallery.
 
-- Make sure all files (robots-harmony.html, robots-harmony.css, robots-harmony.js) are in the same folder submitted in the repository of your `Gitea` account.
+- Make sure all files (`robots-harmony.html`, `robots-harmony.css`, `robots-harmony.js`) are in the same folder and submitted in the repository of your `Gitea` account.
 
 - Double-check the code to ensure everything is clean and well-organized.
 
 ### Expected Output
 
-Your project needs to check all the previous tasks, it will look something close to (and maybe better than) [this](https://youtu.be/drQsUzPeoAQ).
+Your project needs to check all the previous tasks. It will look something close to (and maybe better than) [this](https://youtu.be/drQsUzPeoAQ).
 
-### Bonus part
+### Bonus Part
 
 If you would like to make your project even more creative, you can add more features to your `gallery` on top of the mandatory ones!
 
-It could be `music` to the `background`, `pop-out` information window or anything that makes your project `different`!
+It could be `music` in the `background`, a `pop-out` information window, or anything that makes your project `different`!
 
 > Remember to ensure that the mandatory part is working perfectly before adding more effects.
 

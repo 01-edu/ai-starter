@@ -1,27 +1,27 @@
 ## Good Recipe
 
-> Mindful AI mode
+> Mindful AI Mode
 
 ### Context
 
-Welcome to this quest! I bet you are hungry after this long way gaining power!
+Welcome to this quest! I bet you're hungry after a long journey gaining power!
 
-Are you ready to cook? But instead of cooking food, we'll be applying recipes to data through methods! In JavaScript, methods are special functions called from another value, allowing you to perform various operations.
+Are you ready to cook? Instead of cooking food, we'll be applying recipes to data using methods! In JavaScript, methods are special functions called on another value, allowing you to perform various operations.
 
-Let's find out more!
+Let's dive in!
 
 ### AI-Powered Learning Techniques
 
 **Guided Practice Technique:**
 This type of prompt encourages the AI to guide learners through hands-on practice exercises, providing immediate feedback and helping them build confidence in their skills.
 
-Find the examples across the subject ;)
+Find examples throughout the subject. ;)
 
 ### Concepts
 
 ### Functions and Methods
 
-In JavaScript, functions are like recipes that perform a task. Methods are special functions associated with objects. We are focusing on methods now.
+In JavaScript, functions are like recipes that perform tasks. Methods are special functions associated with objects. We'll focus on methods here.
 
 ### Example
 
@@ -39,7 +39,7 @@ console.log("flour", 200); // both arguments will appear in your console
 
 ### Methods
 
-Methods are functions called from another value. For example, `toFixed` is a method that formats numbers:
+Methods are functions called on another value. For example, `toFixed` is a method that formats numbers:
 
 ```js
 let num = 10 / 3;
@@ -48,7 +48,7 @@ console.log(num.toFixed(2)); // -> '3.33'
 
 ### String Manipulation with Methods
 
-Using the `.slice` method to cut parts of a string:
+Using the `.slice` method to extract parts of a string:
 
 ```js
 let numbers = "0123456789";
@@ -59,52 +59,52 @@ let cutBothSides = numbers.slice(2, -3); // '23456'
 
 ### Splitting Strings
 
-Splitting a string into an array of words using split:
+Splitting a string into an array of words using `.split`:
 
 ```js
 let sentence = "Add flour, sugar, and eggs";
 let words = sentence.split(" "); // ['Add', 'flour,', 'sugar,', 'and', 'eggs']
 ```
 
-### Splitting text into lines:
+### Splitting Text into Lines
 
 ```js
 let text = "Add flour\nMix well\nBake at 350°F";
 let lines = text.split("\n"); // ['Add flour', 'Mix well', 'Bake at 350°F']
 ```
 
-#### **`Prompt Example`**:
+#### **`Prompt Examples`**:
 
 - "Show me step-by-step how to use the `.split` method to break the sentence 'Learning JavaScript is fun' into an array of words."
 
 - "Show me how to use the `.toUpperCase` method to convert the string 'hello' to uppercase."
 
-- "Show me how to use `Math.max` to find the biggest number in an array."
+- "Show me how to use `Math.max` to find the largest number in an array."
 
 ### Instructions
 
 #### Task 1:
 
-You need to find the oldest robot in the kitchen to determine the most experienced helper.
+Find the oldest robot in the kitchen to determine the most experienced helper.
 
-We provide you with three robot objects assigned to their respective variables `martin`, `kevin`, and `stephanie`. Use the `Math.max` function on their `age` properties to find the oldest robot.
+We provide you with three robot objects assigned to the variables `martin`, `kevin`, and `stephanie`. Use the `Math.max` function on their `age` properties to find the oldest robot.
 
 Declare an `oldestAge` variable that uses `Math.max` on the `age` properties of `martin`, `kevin`, and `stephanie`.
 
 #### Task 2:
 
-You need to slice some virtual vegetables. Using the `.slice` method and the provided `alphabet` variable, which is a string of all the characters in the alphabet:
+Slice some virtual vegetables. Using the `.slice` method and the provided `alphabet` variable, which is a string of all the characters in the alphabet:
 
 - Declare a `cutFirst` variable that removes the first `10` characters of `alphabet`, simulating the removal of the first few slices.
 - Declare a `cutLast` variable that removes the last `3` characters of `alphabet`, simulating the trimming of the last few slices.
-- Declare a `cutFirstLast` variable that removes the first `5` characters and the last 6 characters of `alphabet`, simulating a precise cut in the middle.
+- Declare a `cutFirstLast` variable that removes the first `5` characters and the last `6` characters of `alphabet`, simulating a precise cut in the middle.
 
 #### Task 3:
 
-You needs to prepare ingredients for a recipe, and part of the preparation involves transforming text.
+Prepare ingredients for a recipe, and part of the preparation involves transforming text.
 
-For this task, you will use the `toUpperCase` and `toLowerCase` methods on the provided variable `message`.
+For this task, use the `toUpperCase` and `toLowerCase` methods on the provided variable `message`.
 
-- Create a `noCaps` variable with the value of `message` but in lower case to simulate finely chopped ingredients.
+- Create a `noCaps` variable with the value of `message` in lowercase to simulate finely chopped ingredients.
 
-- Create an `allCaps` variable with the value of `message` but in upper case to simulate ingredients being loudly announced.
+- Create an `allCaps` variable with the value of `message` in uppercase to simulate ingredients being loudly announced.

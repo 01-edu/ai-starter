@@ -1,24 +1,24 @@
-## First hello
+## First Hello
 
 > JSPowered Mode
 
 ### Context
 
-Your robot winked, but you can make it talk too! Or at least, make it say his first hello to the world!
+Your robot winked, but now you can make it talk too! Or at least, make it say its first hello to the world!
 
-> Follow the instructions, ask your peers if you are stuck and stay motivated because you are close to your goal!
-> Follow every hint you have in the subject!
-> Continue on the code from last exercise, and change the file names!
+> Follow the instructions, ask your peers if you're stuck, and stay motivated because you're close to your goal!
+> Follow every hint provided in the subject!
+> Continue from the code in the last exercise, and update the file names accordingly.
 
 ### Instructions
 
-Now that you know how to make your creation move, what about making it communicate its first words to the world?
+Now that you know how to make your creation move, how about making it communicate its first words to the world?
 
-After finishing these tasks, you will be able to display and hide `Hello World` in the `torso` of your robot by clicking on a second button.
+After completing these tasks, you'll be able to display and hide `Hello World` in the `torso` of your robot by clicking a second button.
 
 #### Task 1:
 
-Let's put a second button in the top right corner of the page, that will add some text when clicked. Add it in the HTML structure:
+Add a second button in the top-right corner of the page that will display some text when clicked. Include it in the HTML structure:
 
 ```html
 <button id="speak-button">Click me to speak</button>
@@ -32,7 +32,7 @@ button#speak-button {
 }
 ```
 
-Also add this class to style the text we will add:
+Also, add this class to style the text we will add:
 
 ```css
 .words {
@@ -43,16 +43,16 @@ Also add this class to style the text we will add:
 
 #### Task 2:
 
-In the JS file, like in the previous exercise, get the HTML `button` element with id `speak-button` and add an `event listener` on `click event`, triggering a `function` that will:
+In the JS file, as in the previous exercise, select the HTML `button` element with the id `speak-button` and add an `event listener` for the `click` event. This should trigger a `function` that will:
 
-- Select the torso element with id="torso".
-- Check if a div with the class words already exists inside the torso element.
-- If it exists, remove the existing div.
+- Select the torso element with `id="torso"`.
+- Check if a `div` with the class `words` already exists inside the torso element.
+- If it exists, remove the existing `div`.
 - Otherwise:
-  - Create a new HTML element of type div.
+  - Create a new HTML element of type `div`.
   - Set its text content to "Hello World".
-  - Set its class name to words, as defined in the CSS.
-  - Use the append method to add the new div inside the torso element.
+  - Assign it the class name `words`, as defined in the CSS.
+  - Use the `append` method to add the new `div` inside the torso element.
 
 ### Code Example:
 
@@ -61,10 +61,10 @@ In the JS file, like in the previous exercise, get the HTML `button` element wit
 
 //...Here
 
-//Your function that gets triggered when clicking the new button
+// Function triggered when clicking the new button
 const handleSpeakClick = (event) => {
   // Select the torso element where the text will be added or removed
-  const body = document.querySelector("#torso");
+  const torso = document.querySelector("#torso");
 
   // Check if a div with the class 'words' already exists inside the torso
   const existingDiv = document.querySelector("#torso .words");
@@ -84,9 +84,9 @@ const handleSpeakClick = (event) => {
 //...Here
 ```
 
-### Expected result
+### Expected Result
 
-You can see an example of the expected result [here](https://youtu.be/PuyEdAA0wy4)
+You can see an example of the expected result [here](https://youtu.be/PuyEdAA0wy4).
 
 **`Prompt Example:`**
 

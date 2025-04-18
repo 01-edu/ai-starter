@@ -1,20 +1,20 @@
 ## Glance on Power
 
-> Brainpower mode
+> Brainpower Mode
 
 ### Context
 
-Bravo! You've successfully brought the shape of your robot friend into existence. Now, it's time to take the next exciting step and start building the power to bring your robot to life. Yes, it's time to start thinking like a coder, builder! Using JavaScript, you'll be able to add dynamic abilities and interactions to your creation. Get ready to breathe life into your robot friend!
+Congratulations! You've successfully shaped your robot friend into existence. Now, it's time to take the next exciting step and build the power to bring your robot to life. Yes, it's time to start thinking like a coder and builder! Using JavaScript, you'll add dynamic abilities and interactions to your creation. Get ready to breathe life into your robot friend!
 
-Ready to start collecting your power through learning to code? Let's go, time is against us!
+Ready to start gathering your power by learning to code? Let's go—time is of the essence!
 
 ### Concepts
 
 #### Values
 
-In the coding world, values are like the energy sources that power your robot. There are three types of values that can model the **WORLD**! _(In the end, it's all `1`s and `0`s for the computer)_, but for us, **humans**, we need an easier way of representing things.
+In the coding world, values are like the energy sources that power your robot. There are three types of values that can model the **WORLD**! _(Ultimately, it's all `1`s and `0`s for the computer)_, but for us, **humans**, we need a simpler way to represent things.
 
-> We can all agree that `11010001100101110110011011001101111` is not a very friendly way to say `'hello'`!
+> We can all agree that `11010001100101110110011011001101111` isn't a very friendly way to say `'hello'`!
 
 #### Numbers 🔢
 
@@ -24,7 +24,7 @@ Numbers are like the vital stats of your robot:
 - Negative numbers are prefixed with `-`: `-1`, `-1231`
 - Decimal numbers: `3.14`, `-2.53343`, etc.
 
-Use them for _quantities_ like in daily life.
+Use them for _quantities_, just like in daily life.
 
 #### Booleans ✖️ / ✔️
 
@@ -50,7 +50,7 @@ A string is a sequence of characters used to represent text. It needs **delimite
 
 ### Using `console.log`
 
-To display output from a script into a console, use the function `console.log`:
+To display output from a script in a console, use the function `console.log`:
 
 ```js
 console.log(); // <- will show an empty line
@@ -58,23 +58,25 @@ console.log(); // <- will show an empty line
 
 Add any value between the parentheses to see it appear when the script is executed.
 
-It is very important to use this often to validate that our code is working correctly. The more it is tested, the easier it is to understand what's going on in the code!
+It is very important to use this often to validate that your code is working correctly. The more you test, the easier it is to understand what's happening in the code!
 
-In doubt, `console.log` everything, don't be shy, they are free.
+When in doubt, `console.log` everything—don't be shy, it's free.
 
 ### Instructions
 
-To do this exercise, use the code editor on the right side of your window. In the `glance-on-power.js` file, code a program that displays:
+To complete this exercise, use the code editor on the right side of your window. In the `glance-on-power.js` file, write a program that displays:
 
 - The exact text `Hello There !`
-- Any `Number` (like the robot's serial , and of course it should be greater than 0)
-- And a `Boolean` (indicating if the robot's sensors are active)
+- Any `Number` (like the robot's serial number, which should be greater than 0)
+- A `Boolean` (indicating whether the robot's sensors are active)
 
-Don't forget to test your code before submitting it, using the `Run` button.
+Don't forget to test your code before submitting it by using the `Run` button.
 
 ### Recommendation
 
-Videos designed to give **hints** are assigned to each quest. It is strongly suggested to watch them as you go.
+Videos designed to provide **hints** are assigned to each quest. It is strongly recommended to watch them as you progress.
+
+> Pay attention to the very small details ;)
 
 ### Resources
 
