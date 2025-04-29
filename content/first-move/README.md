@@ -83,7 +83,7 @@ nose.classList.add("nose-red");
 
 To change the background color of the nose to yellow:
 
-```css
+```js
 nose.style.backgroundColor = 'yellow';
 ```
 
