@@ -64,7 +64,7 @@ In the JS file, as in the previous exercise, select the HTML `button` element wi
 // Function triggered when clicking the new button
 const handleSpeakClick = (event) => {
   // Select the torso element where the text will be added or removed
-  const torso = document.querySelector("#torso");
+  const body = document.querySelector("#torso");
 
   // Check if a div with the class 'words' already exists inside the torso
   const existingDiv = document.querySelector("#torso .words");

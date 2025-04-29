@@ -76,4 +76,4 @@ Declare a variable `duplicate` that repeats the provided variable `sentence`, se
 
 > For example, if `sentence` is "Hello there", the result should be "Hello there, Hello there!".
 
-**What a great opportunity to apply what you’ve learned by using generative AI and documentation to understand duplicating a string with placeholders! Now you’re capable of finding information everywhere ;)**
+**What a great opportunity to apply what you’ve learned by using generative AI and documentation to understand duplicating a string with placeholders! Now you’re capable of finding information everywhere :)**

@@ -14,7 +14,7 @@ In this second quest of our adventure, you will enhance your skills with JavaScr
 
 This type of prompt encourages the AI to provide various explanations and examples, helping you explore different aspects of a concept.
 
-> Look for examples across the subject. ;)
+> Look for examples across the subject ;)
 
 ### Directions
 

@@ -38,7 +38,7 @@ Add new elements and organize them into different layers. Convert the following 
 
 #### Task 2
 
-Update your CSS file to add rules for the `section` tags: set `display` to "flex" and `justify-content` to "center". This will turn the `section` tags into [flex containers](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), centering the elements inside them.
+Update your CSS file to add rulesets for the `section` tags: set `display` to "flex" and `justify-content` to "center". This will turn the `section` tags into [flex containers](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), centering the elements inside them.
 
 #### Task 3
 

@@ -1,6 +1,6 @@
 ## Colorful Arms
 
-> JS-Powered Mode
+> JSPowered Mode
 
 ### Context
 

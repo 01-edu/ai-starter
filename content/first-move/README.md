@@ -21,7 +21,7 @@ Think of this as a puzzle that challenges you to use your brain, follow hints, a
 
 Still with us? Great! Now, let's get to the serious part. To control your creation, you'll need to connect its brain: JavaScript.
 
-First, define this new class in your CSS file:
+First, define this new class in `your CSS file`:
 
 ```css
 .eye-closed {

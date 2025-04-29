@@ -9,7 +9,7 @@
 
 This type of prompt encourages the AI to provide detailed, step-by-step instructions for learning new concepts.
 
-> Find examples across the subject ;)
+> Find examples across the subject :)
 
 ## Concepts:
 
