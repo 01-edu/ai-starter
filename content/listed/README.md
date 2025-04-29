@@ -21,7 +21,7 @@ Look for examples throughout the subject. 😉
 
 ### Understanding Arrays
 
-Arrays are special types of objects in JavaScript used to store lists of items. Unlike objects, arrays don't have keys for each element—just a list of values.
+Arrays are special types of objects in JavaScript used to store lists of items. Unlike objects, arrays don't have keys for each element, just a list of values.
 
 **Example of an Array**
 

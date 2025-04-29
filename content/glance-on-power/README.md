@@ -6,7 +6,7 @@
 
 Congratulations! You've successfully shaped your robot friend into existence. Now, it's time to take the next exciting step and build the power to bring your robot to life. Yes, it's time to start thinking like a coder and builder! Using JavaScript, you'll add dynamic abilities and interactions to your creation. Get ready to breathe life into your robot friend!
 
-Ready to start gathering your power by learning to code? Let's go—time is of the essence!
+Ready to start gathering your power by learning to code? Let's go!
 
 ### Concepts
 

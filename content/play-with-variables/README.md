@@ -14,7 +14,7 @@ If things ever feel overwhelming, take a moment to connect with your peers. Coll
 
 This type of prompt encourages the AI to explain a concept in detail, helping you gain a deeper understanding.
 
-> Look for examples across the subject. ;)
+> Look for examples across the subject :)
 
 ## Concepts
 
