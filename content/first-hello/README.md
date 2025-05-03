@@ -43,7 +43,7 @@ Also, add this class to style the text we will add:
 
 #### Task 2:
 
-In the JS file, as in the previous exercise, select the HTML `button` element with the id `speak-button` and add an `event listener` for the `click` event. This should trigger a `function` that will:
+In the JS file, as in the previous exercise, get the HTML `button` element with the id `speak-button` and add an `event listener` for the `click` event. This should trigger a `function` that will:
 
 - Select the torso element with `id="torso"`.
 - Check if a `div` with the class `words` already exists inside the torso element.

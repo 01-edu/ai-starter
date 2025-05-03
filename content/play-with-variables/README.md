@@ -36,7 +36,7 @@ The `\` _(backslash)_ is used to escape such characters:
 Whenever there is a _special_ character in your string, placing a `\` in front of it will **escape** it. This tells JavaScript to treat the following character as a literal, rather than as a delimiter or a special character.
 
 ```js
-console.log("I keep trying, I can't give up!");
+console.log("I keep trying, I can\'t give up!");
 
 // Output: I keep trying, I can't give up!
 ```

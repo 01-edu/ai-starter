@@ -115,7 +115,7 @@ Your robot must always seek the truth.
 
 Your `RoboGuard's traveling company` has a special promotion for robot members aged between 18 (inclusive) and 25 (inclusive).
 
-**Note:** The variable `ticket` has already been declared, so do not declare it again.
+**Note: The variable `ticket` has already been declared, so do not declare it again.**
 
 1. Assign the message "You cannot benefit from our special promotion" to the variable `ticket`.
 
