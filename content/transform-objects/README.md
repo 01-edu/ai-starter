@@ -1,19 +1,19 @@
 ## Transform Objects
 
-> Mindful AI mode
+> Mindful AI Mode
 
 ### Context
 
 Imagine your favorite robot friend with all its cool features: a type, weight, and operational status.
 
-In JavaScript, we use objects to group these properties together, making it easy to manage and tweak our robot’s settings. Let’s see how we can modify, add, or remove properties in a JavaScript object to make our robot even cooler!
+In JavaScript, we use objects to group these properties together, making it easy to manage and tweak our robot’s settings. Let’s explore how we can modify, add, or remove properties in a JavaScript object to make our robot even cooler!
 
 ### AI-Powered Learning Techniques
 
 **Contextual Learning Technique:**
-This strategy places learning within a real-world or practical context by having the AI relate concepts to scenarios you might encounter in everyday life or your work. It helps you understand the relevance of what you’re learning and how to apply it.
+This strategy places learning within a real-world or practical context by having the AI relate concepts to scenarios you might encounter in everyday life or work. It helps you understand the relevance of what you’re learning and how to apply it.
 
-Find the examples across the subject ;)
+Find examples throughout the subject :)
 
 ### Concepts
 
@@ -65,15 +65,15 @@ robot.code = undefined;
 Modify the provided `robot` variable:
 
 - Add a `model` property with the string value 'RX-78'.
-- Add a `fullName` property that is the joined value of the `brand` and the `model` with a space in between. (`brand` and `model`are already defined in the provided `robot`)
+- Add a `fullName` property that combines the values of `brand` and `model` with a space in between. (`brand` and `model` are already defined in the provided `robot`.)
 - Add `10` to its `batteryLevel` property.
 
 #### Task 2:
 
-Let's move away from objects a bit, and discover a notion we will use later. `Duplicating a String with Placeholders`!
+Let’s move away from objects for a moment and discover a concept we will use later: `Duplicating a String with Placeholders`!
 
 Declare a variable `duplicate` that repeats the provided variable `sentence`, separated by a comma and a space, and then adds an exclamation mark at the end.
 
-> For example, if `sentence` is "Hello there", we expect "Hello there, Hello there!".
+> For example, if `sentence` is "Hello there", the result should be "Hello there, Hello there!".
 
-**What a good occasion to apply what you learned in using generative AI and documentations to understand duplicating a string with placeholders! Now you are capable to find the information everywhere;)**
+**What a great opportunity to apply what you’ve learned by using generative AI and documentation to understand duplicating a string with placeholders! Now you’re capable of finding information everywhere :)**

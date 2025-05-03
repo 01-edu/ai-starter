@@ -4,18 +4,17 @@
 
 ### Context
 
-Bravo! You've outlined the global shape of your robot friend, but now it's time to bring it to life on Earth by adding essential parts. Let's equip your robot with its vital organs! To do this, we're going to introduce you to the concept of nesting elements inside others. This will allow you to build a fully functional robot, one piece at a time.
+Congratulations! You've outlined the overall structure of your robot friend. Now it's time to bring it to life by adding its essential components. Let's equip your robot with its vital organs! To achieve this, we'll introduce the concept of nesting elements within others. This approach will allow you to build a fully functional robot, one step at a time.
 
-> Don't be afraid of the density of things you are asked to do. Just divide the work up step by step.
+> Don't be intimidated by the complexity of the tasks. Break them down into smaller, manageable steps.
 
 ### Instructions
 
-So far, you just have a unique layer in your `<body>`: `face`, `upper-body`, and `lower-body` are all at the same level.
-But as you know, on a face, there are two eyes, a nose, and a mouth - and inside that mouth, a tongue, etc.; any element can potentially be a container for other elements.
+Currently, your `<body>` contains a single layer: `face`, `upper-body`, and `lower-body` are all at the same level. However, as you know, a face includes two eyes, a nose, and a mouth—and within that mouth, there’s a tongue, and so on. Any element can serve as a container for other elements.
 
 #### Task 1
 
-Let's add new elements and wrap them in different layers; convert this list of organs into an HTML structure with the corresponding given tags!
+Add new elements and organize them into different layers. Convert the following list of organs into an HTML structure using the corresponding tags:
 
 ```html
 <section id="face">
@@ -39,13 +38,13 @@ Let's add new elements and wrap them in different layers; convert this list of o
 
 #### Task 2
 
-Modify your CSS file to add rulesets to `section` tags: `display` at "flex" and `justify-content` at "center" (this is to turn the `section` tags into [`flex` containers](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), so the elements inside will be centered)
+Update your CSS file to add rulesets for the `section` tags: set `display` to "flex" and `justify-content` to "center". This will turn the `section` tags into [flex containers](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), centering the elements inside them.
 
 #### Task 3
 
-Add the following CSS to your CSS file to see the freshly-added nested elements:
+Add the following CSS to your file to style the newly added nested elements:
 
-```
+```css
 div,
 p {
   border: solid 1px black;
@@ -75,7 +74,7 @@ p {
 
 ### Code examples
 
-Nest several elements:
+Here’s an example of nesting multiple elements:
 
 ```html
 <div id="first-element">
@@ -88,17 +87,17 @@ Nest several elements:
 
 ### Expected output
 
-This is what you should see in the browser:
+Here’s what you should see in the browser:
 ![](https://github.com/01-edu/public/raw/master/subjects/nesting-organs/nesting-organs.png)
 
-> From now on, you can customize the `background-color` of the three following background sections from the CSS code by choosing the colors that you think best suit your theme.  
+> From now on, you can customize the `background-color` of the following sections in the CSS code to match your theme:  
 > \#face  
 > \#upper-body  
 > \#lower-body  
-> You don't know which color is configurable? [Internet will give you the list](https://letmegooglethat.com/?q=css+color+list)
+> Not sure which colors are available? [This list might help](https://letmegooglethat.com/?q=css+color+list).
 
 ### Notions
 
 - [Anatomy of an HTML element](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#anatomy_of_an_html_element)
 - [Nesting HTML elements](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started#nesting_elements)
-- [Flexbox layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox), you can train on [Flexbox froggy](https://flexboxfroggy.com/)
+- [Flexbox layout](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox). You can practice with [Flexbox Froggy](https://flexboxfroggy.com/).

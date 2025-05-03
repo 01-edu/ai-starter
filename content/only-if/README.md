@@ -1,25 +1,25 @@
 ## Only If
 
-> Mindful AI mode
+> Mindful AI Mode
 
 ### Context
 
-You are close to getting the ultimate power! Are you ready to command your robot using conditions? In JavaScript, conditions allow you to control what your robots do based on different situations.
+You are close to achieving ultimate power! Are you ready to command your robot using conditions? In JavaScript, conditions allow you to control what your robots do based on different situations.
 
 Let's have some fun with it!
 
 ### AI-Powered Learning Techniques
 
 **Interactive Learning Technique:**
-This type of prompt engages you in active problem-solving by providing challenges or tasks that require applying concepts. This can work to compare your results with your peers!
+This type of prompt engages you in active problem-solving by providing challenges or tasks that require applying concepts. You can also compare your results with your peers!
 
-Find the examples across the subject ;)
+Find examples throughout the subject ;)
 
 ### Concepts
 
 ### Conditions in JavaScript
 
-Conditions in JavaScript are like decision points, they allow you to execute different actions based on whether a condition is true or false.
+Conditions in JavaScript are like decision points. They allow you to execute different actions based on whether a condition is true or false.
 
 ```js
 if (condition) {
@@ -43,7 +43,7 @@ if (batteryLevel > 50) {
 
 ### Truthy and Falsy
 
-In JavaScript, all the values are either `truthy` or `falsy`. Truthy values validate conditions, while falsy values do not.
+In JavaScript, all values are either `truthy` or `falsy`. Truthy values validate conditions, while falsy values do not.
 
 #### Falsy Values:
 
@@ -58,31 +58,31 @@ In JavaScript, all the values are either `truthy` or `falsy`. Truthy values vali
 
 ### AND Operator (&&)
 
-The AND operator groups conditions:
+The AND operator combines conditions:
 
 ```js
-// Ex: let robot = { status: 'active', battery: 75, name: 'RoboGuard' };
+// Example: let robot = { status: 'active', battery: 75, name: 'RoboGuard' };
 
 if (robot.status === "active" && robot.battery > 50) {
-  console.log("Robot" + robot.name + "is active and has sufficient battery.");
+  console.log("Robot " + robot.name + " is active and has sufficient battery.");
 }
 
-//Output : Robot RoboGuard is active and has sufficient battery.
+// Output: Robot RoboGuard is active and has sufficient battery.
 ```
 
 ### OR Operator (||)
 
-The OR operator groups conditions:
+The OR operator combines conditions:
 
 ```js
 if (robot.type === "security" || robot.type === "assistant") {
-  console.log(robot.name + "is available for tasks.");
+  console.log(robot.name + " is available for tasks.");
 }
 ```
 
 ### `else if` Keyword
 
-Chain conditions using else if:
+Chain conditions using `else if`:
 
 ```js
 if (temperature < 8) {
@@ -106,40 +106,41 @@ if (temperature < 8) {
 
 #### Task 1:
 
-Your Robot must always seek the truth.
+Your robot must always seek the truth.
 
-- Check if the value of the provided variable `truth` is truthy, log the string: `The truth was spoken.`
-- Otherwise, log the string: `Lies !!!!` because the value of the provided variable `truth` is falsy.
+- Check if the value of the provided variable `truth` is truthy. If so, log the string: `The truth was spoken.`
+- Otherwise, log the string: `Lies!!!!` because the value of the provided variable `truth` is falsy.
 
 #### Task 2:
 
-Your `RoboGuard's traveling company` has a special promotion for robot members aged between 18 (included) and 25 (included).
+Your `RoboGuard's traveling company` has a special promotion for robot members aged between 18 (inclusive) and 25 (inclusive).
 
-**NB: The variable ticket has already been declared, so do not declare it again.**
+**Note: The variable `ticket` has already been declared, so do not declare it again.**
 
-1- Assign the message "You cannot benefit from our special promotion" to the variable `ticket`.
+1. Assign the message "You cannot benefit from our special promotion" to the variable `ticket`.
 
-2- Use an if statement to check that all these conditions are true:
+2. Use an `if` statement to check that all these conditions are true:
 
 - `user.age` must be greater than or equal to `18`.
 - `user.age` must be less than or equal to `25`.
 - `user.activeMembership` must be `true`.
 
-3- If all conditions are true, update the variable `ticket` with the message: "You can benefit from our special promotion".
+3. If all conditions are true, update the variable `ticket` with the message: "You can benefit from our special promotion."
 
-> Hint : use an AND Operator in your condition!
+> Hint: Use the AND operator in your condition!
 
 #### Task 3:
 
 Your RoboGuard is selling plane tickets, each costing `9.99$`. The RoboGuard must confirm that the customer robot has the means to buy this ticket.
 
-The customer robot may have enough cash **or** be in possesion of a voucher.
+The customer robot may have enough cash **or** possess a voucher.
 
-Check if the provided variable customer can afford the ticket:
+Check if the provided variable `customer` can afford the ticket:
 
-If the customer has enough `cash` (`customer.cash` property)
-**OR** If the customer has a `voucher` (`customer.hasVoucher` property is true)
+- If the customer has enough `cash` (`customer.cash` property)
+**OR**
+- If the customer has a `voucher` (`customer.hasVoucher` property is true)
 
 If so, `increment` the provided variable `ticketSold` value by `1`.
 
-> Hint : use OR Operator in your condition!
+> Hint: Use the OR operator in your condition!

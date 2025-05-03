@@ -1,6 +1,6 @@
 ## The Smooth Operator
 
-> Mindful AI mode
+> Mindful AI mode  
 > Unlike the song, smooth operators in JavaScript help you perform various calculations and manipulations with ease.
 
 ### AI-Powered Learning Techniques
@@ -9,23 +9,22 @@
 
 This type of prompt encourages the AI to provide detailed, step-by-step instructions for learning new concepts.
 
-> Find the examples across the subject ;)
+> Find examples across the subject :)
 
 ## Concepts:
 
 ### Math Operators
 
-In JavaScript, operators are symbols that perform operations on variables and values. Let's delve into the most common types of operators you'll encounter.
+In JavaScript, operators are symbols that perform operations on variables and values. Let's explore the most common types of operators you'll encounter.
 
-There are other operators other than assignment, for now let's focus on the one you
-probably already know:
+For now, let's focus on the ones you probably already know:
 
 - `+` Addition
 - `-` Subtraction
 - `/` Division
 - `*` Multiplication
 
-Those operators are used the same way we would write them in math:
+These operators are used in the same way we write them in math:
 
 ```js
 console.log(5 + 7); // -> 12
@@ -34,19 +33,19 @@ console.log(7 - 5); // -> 2
 console.log(9 / 3); // -> 3
 ```
 
-Operators are evaluated using classic priority:
+Operators are evaluated using classic precedence rules:
 
 ```js
 console.log(1 + 5 * 10); // -> 51
 ```
 
-you can use parentheses `()` to enforce priority:
+You can use parentheses `()` to enforce precedence:
 
 ```js
 console.log((1 + 5) * 10); // -> 60
 ```
 
-And they result in a value, so they can be assigned to variables:
+Operators produce a value, so they can be assigned to variables:
 
 ```js
 let halfMyAge = 33 / 2;
@@ -59,16 +58,15 @@ let twiceMyAge = 33 * 2;
 
 ### Placeholders
 
-JavaScript allows you to include expressions within strings using template literals. This is done using backticks ``(`)`` and the `${}` syntax to include expressions.
+JavaScript allows you to include expressions within strings using template literals. This is done using backticks `` ` `` and the `${}` syntax to include expressions.
 
 #### Example
 
 ```js
-console.log(`5 + 10 = ${5 + 10} = 15`); // -> 5 + 10 = 15 = 15
+console.log(`5 + 10 = ${5 + 10}`); // -> 5 + 10 = 15
 ```
 
-**Note that it only works using:** the `` ` `` backtick, not the `"` or `'`
-quotes.
+**Note:** This only works with backticks `` ` ``, not with double quotes `"` or single quotes `'`.
 
 #### **`Prompt example`**:
 
@@ -78,11 +76,11 @@ quotes.
 
 #### Task 1:
 
-Your code must use the given variable `smooth` as our initial value
+Your code must use the given variable `smooth` as the initial value.
 
-> When in doubt, always test your code with `console.log()` and the Run button.
-> But, when the platform gives you an already existing variable to manipulate, like the `smooth` variable here, if you want to use/display it, you have to do so with the submit button.
-> You'll then see the result in the code editor console output, as this variable is not available in `Run` button mode, but only in `Submit` button mode.
+> When in doubt, always test your code with `console.log()` and the Run button.  
+> However, when the platform provides an already existing variable to manipulate, like the `smooth` variable here, if you want to use or display it, you must do so with the Submit button.  
+> You'll then see the result in the code editor console output, as this variable is not available in Run mode but only in Submit mode.
 
 ```js
 console.log("smooth = ", smooth);
@@ -90,21 +88,22 @@ let lessSmooth = smooth - 5;
 console.log("lessSmooth = ", lessSmooth);
 ```
 
-You will declare a few variables:
+Declare the following variables:
 
-- `lessSmooth` that is just `1` less than `smooth`.
-- `semiSmooth` that is half the amount of `smooth`. _(it's still pretty smooth)_
-- `plus11` that is `smooth` plus `11`.
-- `ultraSmooth` that is the square of smooth. _(now that's smooth!)_
+- `lessSmooth`: This is `1` less than `smooth`.
+- `semiSmooth`: This is half the value of `smooth`. _(It's still pretty smooth!)_
+- `plus11`: This is `smooth` plus `11`.
+- `ultraSmooth`: This is the square of `smooth`. _(Now that's smooth!)_
 
 #### Task 2:
 
-We will provide two variables `name` and `age`. They will be defined by us.
+We will provide two variables, `name` and `age`, which will be defined by us.
 
-Declare your robot's `presentation` variable with the value `Hello, my name is NAME and I'm AGE years old`
-Make sure you replace `NAME` and `AGE` with the appropriate values provided by us.
+Declare your robot's `presentation` variable with the value:  
+`Hello, my name is NAME and I'm AGE years old.`  
+Make sure to replace `NAME` and `AGE` with the appropriate values provided by us.
 
 ---
 
-> BGM:
+> BGM:  
 > [Sade - Smooth Operator - Official - 1984](https://www.youtube.com/watch?v=4TYv2PhG89A)

@@ -1,25 +1,25 @@
-## First move
+## First Move
 
-> Brainpower mode
+> Brainpower Mode
 
 ### Context
 
-Glad to see you here! It's impressive how far you've come today, and you are just one step away from seeing a simple yet impressive thing we can do with JavaScript. This will give you a glimpse of how JavaScript works with HTML and CSS to make your robot interesting! By using JavaScript, you will control and interact with your creation, adding dynamic abilities that make it come alive.
+Glad to see you again! It's amazing how far you've come today. You're just one step away from discovering a simple yet impressive example of what we can achieve with JavaScript. This will give you a glimpse of how JavaScript works alongside HTML and CSS to make your robot more engaging! By using JavaScript, you'll be able to control and interact with your creation, adding dynamic features that bring it to life.
 
-So far, you haven't learned much about JavaScript (but you will soon, don't worry!), now we want you to see an example of how powerful JavaScript can be in modifying the robot.
+So far, you haven't learned much about JavaScript (but don't worry, you will soon!). For now, we want to show you an example of how powerful JavaScript can be in modifying your robot.
 
-In these instructions, you will execute the steps to change your robot's eyes from open to closed using JavaScript! Does it seem simple? Yes, but you will later make your robot more dynamic by pushing a button to open and close that eye! Of course, that's for when you will learn more about JavaScript.
+In this exercise, you'll follow the steps to change your robot's eyes from open to closed using JavaScript. Does it sound simple? Yes, but later you'll make your robot even more dynamic by adding a button to open and close its eyes! Of course, that's something you'll tackle once you've learned more about JavaScript.
 
-This is more of a puzzle to use your brain to follow hints and make things work, even if it seems complex (it is not!). Isn't that your brain's superpower?
+Think of this as a puzzle that challenges you to use your brain, follow hints, and make things work—even if it seems tricky (it’s not!). Isn't problem-solving your brain's superpower?
 
-> Follow the instructions, ask your peers if you are stuck and stay motivated because you are close to the Shape Crafting goal!
-> Follow every hint you have in the subject!
+> Follow the instructions, ask your peers if you get stuck, and stay motivated because you're close to achieving the Shape Crafting goal!
+> Pay attention to every hint provided in the instructions!
 
 ### Instructions
 
-- for the JavaScript (JS) files, when you have to link one, it's named like so: `name-of-the-exercise.js`
+- For the JavaScript (JS) files, when you need to link one, it will be named like this: `name-of-the-exercise.js`.
 
-Still there? Well done! But hold on, here begins the serious part... In order to control your creation, you're going to plug its brain: JavaScript.
+Still with us? Great! Now, let's get to the serious part. To control your creation, you'll need to connect its brain: JavaScript.
 
 First, define this new class in `your CSS file`:
 
@@ -33,23 +33,23 @@ First, define this new class in `your CSS file`:
 
 #### Task 1
 
-Second, [Link a JS script](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) to your HTML file.
+Next, [link a JS script](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script) to your HTML file.
 
 #### Task 2
 
-Then in your Javascript file, you're going to close the left eye of your entity. To do so, you have to first target the `eye-left` HTML element by its `id` using the [getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) method.
+In your JavaScript file, you'll close the left eye of your robot. To do this, first target the `eye-left` HTML element by its `id` using the [getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) method.
 
 #### Task 3
 
-Then, after your eye is targetted, [set the style](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style#setting_styles) of your `eye-left` to change its background color to "black". Finally, we also need to modify its shape; for that, we are going to add a new class to it. To do so, you need to you use the [classList.add()](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList).
+After targeting the eye, [set its style](https://developer.mozilla.org/en-US/docs/Web/API/ElementCSSInlineStyle/style#setting_styles) to change its background color to "black". Finally, modify its shape by adding a new class to it. Use the [classList.add()](https://developer.mozilla.org/en-US/docs/Web/API/Element/classList) method for this step.
 
-### Code examples
+### Code Examples
 
 #### Example 1
 
-To target the `nose` HTML element by its `id` using getElementById:
+To target the `nose` HTML element by its `id` using `getElementById`:
 
-In HTML file:
+In the HTML file:
 
 ```html
 <!-- HTML -->
@@ -81,28 +81,28 @@ nose.classList.add("nose-red");
 
 #### Example 3
 
-To change the background color of nose to yellow:
+To change the background color of the nose to yellow:
 
-```css
-nose.style.backgroundColor = 'yellow'
+```js
+nose.style.backgroundColor = 'yellow';
 ```
 
-### Expected output
+### Expected Output
 
-> By the way, do you like your new background color chosen earlier? Me too.  
-> To personalize your robot even more, don't hesitate to change the inclination of its arms in a direction that reflects the personality you have chosen!  
-> I think [adding a rotation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate) to the `arm class` is a good solution.
+> By the way, do you like the new background color you chose earlier? Me too.  
+> To personalize your robot even more, feel free to adjust the inclination of its arms to reflect the personality you've envisioned!  
+> Adding a [rotation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate) to the `arm` class is a great way to achieve this.
 
 This is what you should see in the browser:  
 [![personalize-bring-it-to-life-dom-example.png](https://i.postimg.cc/Df5pcWN1/personalize-bring-it-to-life-dom-example.png)](https://postimg.cc/pyhBWdRd)
 
 ### Resources
 
-We provide you with some content to get started smoothly, check it out!
+Here are some resources to help you get started smoothly. Check them out!
 
-- Video [Link a JS script to your HTML file](https://www.youtube.com/watch?v=jMvsQm-p1gM&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=7)
-- Video [JS variables explained](https://www.youtube.com/watch?v=XNjhAMhyVJo&list=PLDa5D3mQAy7Sj0s4J6R5HT2xsEXkYuYFL&index=3)
-- Video [DOM JS - getElementById](https://www.youtube.com/watch?v=34kAR8yBtDM&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=8)
-- Video [DOM JS - Set an element's inline style](https://www.youtube.com/watch?v=pxlYKvju1z8&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=15)
-- Video [DOM JS - classList: add & remove](https://www.youtube.com/watch?v=uQEM-3_4vPA&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=17)
+- Video: [Link a JS script to your HTML file](https://www.youtube.com/watch?v=jMvsQm-p1gM&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=7)
+- Video: [JS variables explained](https://www.youtube.com/watch?v=XNjhAMhyVJo&list=PLDa5D3mQAy7Sj0s4J6R5HT2xsEXkYuYFL&index=3)
+- Video: [DOM JS - getElementById](https://www.youtube.com/watch?v=34kAR8yBtDM&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=8)
+- Video: [DOM JS - Set an element's inline style](https://www.youtube.com/watch?v=pxlYKvju1z8&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=15)
+- Video: [DOM JS - classList: add & remove](https://www.youtube.com/watch?v=uQEM-3_4vPA&list=PLHyAJ_GrRtf979iZZ1N3qYMfsPj9PCCrF&index=17)
 - [Memo DOM JS](https://github.com/nan-academy/js-training/blob/gh-pages/examples/dom.js)

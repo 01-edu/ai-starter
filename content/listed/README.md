@@ -1,21 +1,21 @@
 ## Listed
 
-> Mindful AI mode
+> Mindful AI Mode
 
 ### Context
 
-Sometimes we don't need a key, we just want a list of things, JS has a special type for that, called an array.
+Sometimes, we don't need a key; we just want a list of things. JavaScript has a special type for that, called an array.
 
-In JavaScript, arrays are essential tools for handling these lists efficiently.
+In JavaScript, arrays are essential tools for efficiently managing these lists.
 
-Let's discover them together!
+Let's explore them together!
 
 ### AI-Powered Learning Techniques
 
 **Example-Based Learning Technique:**
-This type of prompt encourages the AI to provide concrete examples to illustrate concepts, making it easier to understand and apply them.
+This type of prompt encourages the AI to provide concrete examples to illustrate concepts, making them easier to understand and apply.
 
-Find the examples across the subject ;)
+Look for examples throughout the subject. 😉
 
 ### Concepts
 
@@ -25,7 +25,7 @@ Arrays are special types of objects in JavaScript used to store lists of items. 
 
 **Example of an Array**
 
-Let's see an example of an array:
+Here's an example of an array:
 
 ```js
 let batteryLevels = [
@@ -35,7 +35,7 @@ let batteryLevels = [
   50,
 ];
 
-// or for brevity, we often write them on a single line like so:
+// Or, for brevity, we often write them on a single line like this:
 
 let batteryLevels = [80, 60, 90, 50];
 ```
@@ -64,7 +64,7 @@ console.log(batteryLevels[3]); // -> 50
 console.log(batteryLevels[6]); // -> undefined
 ```
 
-### Using the .length Property
+### Using the `.length` Property
 
 Arrays keep track of how many elements they contain using the `.length` property:
 
@@ -109,26 +109,25 @@ Now, the array looks like this:
 
 #### Task 1:
 
-You must declare a variable `components` that contains 4 strings, one for each robot component : `"motor"`, `"sensor"`, `"battery"` and `"camera"` (respect that order).
+Declare a variable `components` that contains 4 strings, one for each robot component: `"motor"`, `"sensor"`, `"battery"`, and `"camera"` (in that order).
 
 #### Task 2:
 
-We provide you a variable `robotParts` that contains some elements. You will have to access them and assign their values to variables:
+We provide you with a variable `robotParts` that contains some elements. You will need to access them and assign their values to variables:
 
-- A variable `firstPart` for the first element of the `robotParts` list
-- A variable `lastPart` for the last element of the `robotParts` list
-- A variable `comboParts` as an array of 2 elements, the last and the first element of the `robotParts` list, in that order.
-  Example: if `robotParts` is `[1, 2, 3]`
+- A variable `firstPart` for the first element of the `robotParts` list.
+- A variable `lastPart` for the last element of the `robotParts` list.
+- A variable `comboParts` as an array of 2 elements: the last and the first element of the `robotParts` list, in that order.
 
--`firstPart` would be `1`
+Example: if `robotParts` is `[1, 2, 3]`
 
--`lastPart` would be `3`
-
--`comboParts` would be `[3, 1]`
+- `firstPart` would be `1`
+- `lastPart` would be `3`
+- `comboParts` would be `[3, 1]`
 
 #### Task 3:
 
-- You must replace the third element of the provided `replaceComponents` array with the string 'enhanced'.
+- Replace the third element of the provided `replaceComponents` array with the string `'enhanced'`.
 
 Example:
 
@@ -137,9 +136,9 @@ let replaceComponents = ["motor", "sensor", "battery"];
 // expect -> ['motor', 'sensor', 'enhanced']
 ```
 
-- You must `swap` the first and second element of the provided `swapComponents` array using a variable `temp`.
+- Swap the first and second elements of the provided `swapComponents` array using a variable `temp`.
 
-_Hint: Use a `temp` variable to store the first element, you must modify the array swapComponents, not create a new one !_
+_Hint: Use a `temp` variable to store the first element. You must modify the array `swapComponents`, not create a new one!_
 
 Example:
 
