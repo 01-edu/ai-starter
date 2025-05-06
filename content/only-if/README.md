@@ -117,7 +117,7 @@ Your `RoboGuard's traveling company` has a special promotion for robot members a
 
 **NB: The variable ticket has already been declared, so do not declare it again.**
 
-1- Assign the message "You cannot benefit from our special promotion" to the variable `ticket`.
+1- Assign the message "You cannot benefit from our special promotion." to the variable `ticket`.
 
 2- Use an if statement to check that all these conditions are true:
 
