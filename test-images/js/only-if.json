@@ -45,23 +45,23 @@
   },
   {
     "description": "Test with a user that can have the promotion",
-    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 22 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You can benefit from our special promotion')"
+    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 22 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You can benefit from our special promotion.')"
   },
   {
     "description": "Test with a user that is too old",
-    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 33 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You cannot benefit from our special promotion')"
+    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 33 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion.'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You cannot benefit from our special promotion.')"
   },
   {
     "description": "Test with a user that is too young",
-    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 12 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You cannot benefit from our special promotion')"
+    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 12 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion.'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You cannot benefit from our special promotion.')"
   },
   {
     "description": "Test with a user that doesn't have an active membership",
-    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: false, age: 21 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You cannot benefit from our special promotion')"
+    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: false, age: 21 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion.'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You cannot benefit from our special promotion.')"
   },
   {
     "description": "Test with a user that can have the promotion but is just at the limit",
-    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 25 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You can benefit from our special promotion')"
+    "code": "const args = saveArguments(console, 'log')\nlet truth = 1\nlet user = { activeMembership: true, age: 25 }\nlet customer = { cash: 20, hasVoucher: false }\nlet ticket = 'You can benefit from our special promotion.'\nlet ticketSold = 3\n\n// Your code\n\nequal(ticket, 'You can benefit from our special promotion.')"
   },
   {
     "description": "Test with a customer that has enough cash",

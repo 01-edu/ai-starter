@@ -9,11 +9,11 @@
   },
   {
     "description": "ask works and is called",
-    "code": "const args = saveArguments(console, 'log')\n\n// Your code\n\nequal(args[0], ['What is my purpose ?'])"
+    "code": "const args = saveArguments(console, 'log')\n\n// Your code\n\nequal(args[0], ['What is my purpose?'])"
   },
   {
     "description": "reply works and is called too",
-    "code": "const args = saveArguments(console, 'log')\n\n// Your code\n\nequal(args, [['What is my purpose ?'], ['You pass butter.']])"
+    "code": "const args = saveArguments(console, 'log')\n\n// Your code\n\nequal(args, [['What is my purpose?'], ['You pass butter.']])"
   },
   {
     "description": "calling reply and ask again relog the text.",
